@@ -5,6 +5,7 @@ Procedural Terrain Generator using the Wave Function Collapse Algorithm ([WFC im
 ## Topographic Terrain (Introduction)
 
 The Wave Function Collapse Algorithm generate images based on given rules that determinate which states can be adjacent to which others states.
+
 The basic Color Topographic Map determines which heights are adjacent to which others, which serve as initial rules.
 
 The relations are the following:
@@ -22,7 +23,6 @@ adj_dic = {0: [0, 1], 1: [0, 1, 2],
 With the `adj_dict` above and the following parameters we will get the next result:
 
 ### INPUT
-
 ```
 ini_state = [0, 1, 2, 3, 4, 5]
 n = 40
@@ -52,19 +52,15 @@ Make sure to have Python 3.6+ and pip installed.
     ```
     git clone https://github.com/JuanSoriaE/WFC-Terrain-Generator-v2.git
     ```
-
 2. Once you are in the root path of the project, clone the repository of the WaveFunctionCollapsed module ([Link WFC module](https://github.com/JuanSoriaE/WFC)).
-
 3. Install the dependencies.
     ```
     pip install Pillow ursina numpy
     ```
-
 4. Run the main.py file.
     ```
     python main.py
     ```
-
 5. You can modify all the parameters from the main.py file.
 
 ## EXAMPLES WITH CUSTOM PARAMETERS
