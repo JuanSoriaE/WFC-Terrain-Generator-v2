@@ -73,7 +73,7 @@ Make sure to have Python 3.6+ and pip installed.
     ```
 5. You can modify all the parameters from the `main.py` file.
 
-## EXAMPLES WITH CUSTOM PARAMETERS
+## Examples with Custom Parameters
 
 All the images below uses the same `COLORS`.
 | Averaging colors Image | 3D View (Generated with GREY-SCALE Topographic Map image) | Non-default Parameters |
